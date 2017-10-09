@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		395395B8CFF99794280F967F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 211625572CB09236AECD540F /* libPods.a */; };
-		3DB09FF31A002AEE00C2A6FF /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DB09FF21A002AEE00C2A6FF /* Icons.xcassets */; };
 		3DCC249F1A000151005B9669 /* JBWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC249E1A000151005B9669 /* JBWebViewController.m */; };
 		3DCC24A11A0001C4005B9669 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DCC24A01A0001C4005B9669 /* WebKit.framework */; };
 		3DCC470E19FFDD54006620A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC470D19FFDD54006620A0 /* main.m */; };
@@ -35,7 +34,6 @@
 
 /* Begin PBXFileReference section */
 		211625572CB09236AECD540F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DB09FF21A002AEE00C2A6FF /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icons.xcassets; sourceTree = "<group>"; };
 		3DCC249D1A000151005B9669 /* JBWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBWebViewController.h; sourceTree = "<group>"; };
 		3DCC249E1A000151005B9669 /* JBWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBWebViewController.m; sourceTree = "<group>"; };
 		3DCC24A01A0001C4005B9669 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
@@ -57,6 +55,18 @@
 		3DE8B55F1A02597E00F02F0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4D498A22AFCCEC53F622EF17 /* Pods-JBWebViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JBWebViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-JBWebViewController/Pods-JBWebViewController.release.xcconfig"; sourceTree = "<group>"; };
 		76C5896B2C32AD4C9E57974B /* libPods-JBWebViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JBWebViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		793443AD1F8B6C3C0019B490 /* Forward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Forward@2x.png"; sourceTree = "<group>"; };
+		793443AE1F8B6C3D0019B490 /* Back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back@2x.png"; sourceTree = "<group>"; };
+		793443AF1F8B6C3D0019B490 /* Dismiss@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dismiss@2x.png"; sourceTree = "<group>"; };
+		793443B01F8B6C3D0019B490 /* Dismiss@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dismiss@1x.png"; sourceTree = "<group>"; };
+		793443B11F8B6C3D0019B490 /* Dismiss@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dismiss@3x.png"; sourceTree = "<group>"; };
+		793443B21F8B6C3D0019B490 /* Forward@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Forward@1x.png"; sourceTree = "<group>"; };
+		793443B31F8B6C3D0019B490 /* Forward@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Forward@3x.png"; sourceTree = "<group>"; };
+		793443B41F8B6C3D0019B490 /* Back@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back@1x.png"; sourceTree = "<group>"; };
+		793443B51F8B6C3D0019B490 /* Back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back@3x.png"; sourceTree = "<group>"; };
+		793443BA1F8B6C780019B490 /* Share@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Share@3x.png"; sourceTree = "<group>"; };
+		793443BB1F8B6C780019B490 /* Share@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Share@1x.png"; sourceTree = "<group>"; };
+		793443BC1F8B6C780019B490 /* Share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Share@2x.png"; sourceTree = "<group>"; };
 		928C1BC73E1497152F46199B /* Pods-JBWebViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JBWebViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JBWebViewController/Pods-JBWebViewController.debug.xcconfig"; sourceTree = "<group>"; };
 		ACC8AADF9FCFEA16F95C3932 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C304122CA3ACA4DD351ACBB5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -111,9 +121,9 @@
 		3DCC249C1A000151005B9669 /* JBWebViewController */ = {
 			isa = PBXGroup;
 			children = (
+				793443B61F8B6C400019B490 /* Resources */,
 				3DCC249D1A000151005B9669 /* JBWebViewController.h */,
 				3DCC249E1A000151005B9669 /* JBWebViewController.m */,
-				3DB09FF21A002AEE00C2A6FF /* Icons.xcassets */,
 			);
 			name = JBWebViewController;
 			path = ../../JBWebViewController;
@@ -180,6 +190,25 @@
 				3DCC472619FFDD54006620A0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		793443B61F8B6C400019B490 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				793443B41F8B6C3D0019B490 /* Back@1x.png */,
+				793443AE1F8B6C3D0019B490 /* Back@2x.png */,
+				793443B51F8B6C3D0019B490 /* Back@3x.png */,
+				793443B01F8B6C3D0019B490 /* Dismiss@1x.png */,
+				793443AF1F8B6C3D0019B490 /* Dismiss@2x.png */,
+				793443B11F8B6C3D0019B490 /* Dismiss@3x.png */,
+				793443B21F8B6C3D0019B490 /* Forward@1x.png */,
+				793443AD1F8B6C3C0019B490 /* Forward@2x.png */,
+				793443B31F8B6C3D0019B490 /* Forward@3x.png */,
+				793443BB1F8B6C780019B490 /* Share@1x.png */,
+				793443BC1F8B6C780019B490 /* Share@2x.png */,
+				793443BA1F8B6C780019B490 /* Share@3x.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +295,6 @@
 			files = (
 				3DCC471719FFDD54006620A0 /* Main.storyboard in Resources */,
 				3DCC471C19FFDD54006620A0 /* LaunchScreen.xib in Resources */,
-				3DB09FF31A002AEE00C2A6FF /* Icons.xcassets in Resources */,
 				3DCC471919FFDD54006620A0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
